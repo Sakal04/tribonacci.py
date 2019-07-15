@@ -1,7 +1,8 @@
 def tribonacci(x, n):
-  nx = [i for i in x]
+  
   tribonaci = []
-  if n == 3:
+  if len(x) == 3:
+    nx = [i for i in x]
     for i in range(n):
       new_element = sum(nx)
       nx.append(new_element)
