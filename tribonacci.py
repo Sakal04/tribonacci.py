@@ -1,9 +1,5 @@
 def tribonaci(lis_t, n):
-	if len(lis_t) != 3:
-		print("check if list is not too small/big")
-	else:
-		tri = []
-		xlis_t = [int(i) for i in lis_t]
+	
 	for i in range(n):
 		new_element = sum(xlis_t)
 		xlis_t.append(new_element)
